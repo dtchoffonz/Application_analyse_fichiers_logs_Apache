@@ -1,0 +1,3 @@
+# Application d'analyse de fichiers logs Apache
+Ce projet consistait à concevoir une application en C++, qui prend en paramètres le nom du fichier log ainsi qu’une série d'options en ligne de commande. Le but de l'application est d'analyser le fichier log et de ressortir des statistiques intéressantes.
+Pour une plus grande compréhension du fonctionnement de l'application, vous pouvez vous référer au manuel d'utilisation.

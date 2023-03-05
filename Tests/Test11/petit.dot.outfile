@@ -1,0 +1,29 @@
+digraph {
+node1 [label="-"];
+node0 [label="/SiteWebIF/Intranet-etudiant.php"];
+node2 [label="/page2.html"];
+node3 [label="/page3.html"];
+node4 [label="/temps/"];
+node6 [label="/temps/3IF39.html"];
+node7 [label="/temps/4IF39.html"];
+node8 [label="/temps/InsaIF.ico"];
+node9 [label="/temps/choix.gif"];
+node10 [label="/temps/precedent.gif"];
+node11 [label="/temps/suivant.gif"];
+node5 [label="http://www.google.fr/search?hl=fr&gl=FR&ie=UTF-8&source=android-browser&q=intranet+if&redir_esc=&ei=ng1LUJe9KIGf0QXdg4HoAg"];
+node1 -> node0[label="1"];
+node3 -> node2[label="1"];
+node4 -> node2[label="2"];
+node2 -> node3[label="1"];
+node2 -> node4[label="1"];
+node5 -> node4[label="1"];
+node1 -> node6[label="1"];
+node4 -> node6[label="1"];
+node4 -> node7[label="1"];
+node4 -> node8[label="1"];
+node6 -> node9[label="1"];
+node7 -> node9[label="1"];
+node7 -> node10[label="1"];
+node6 -> node11[label="1"];
+node7 -> node11[label="1"];
+}
